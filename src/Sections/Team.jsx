@@ -47,12 +47,12 @@ export default function Team() {
         </div>
       </main>
       <img
-        className="absolute right-48 top-0 w-24"
+        className="absolute right-48 top-0 z-20 w-24"
         src={Airplane}
         alt="Paper airplane"
       />
       <img
-        className="absolute top-20 -left-8 w-24"
+        className="absolute top-20 -left-8 z-20 w-24"
         src={Airplane}
         alt="Paper airplane"
       />

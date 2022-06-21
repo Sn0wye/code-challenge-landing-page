@@ -4,7 +4,7 @@ import logoImg from '../Assets/img/logo.svg'
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 flex w-full items-center justify-between bg-white px-32 pt-10 text-base">
+    <nav className="sticky top-0 z-10 flex w-full items-center justify-between bg-white px-32 pt-10 text-base">
       <img src={logoImg} alt="MasmasHub logo" />
       <ul className="flex items-center gap-16">
         <li className="font-bold text-purple-500">

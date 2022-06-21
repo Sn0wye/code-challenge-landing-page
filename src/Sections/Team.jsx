@@ -1,12 +1,13 @@
 import React from 'react'
 
+import Airplane from '../Assets/img/airplane.svg'
 import Person1 from '../Assets/img/Person1.svg'
 import Person2 from '../Assets/img/Person2.svg'
 import Person3 from '../Assets/img/Person3.svg'
 
 export default function Team() {
   return (
-    <section id="team" className="mt-40 flex h-[70vh] w-full flex-col">
+    <section id="team" className="relative mt-40 flex h-[70vh] w-full flex-col">
       <h1 className="flex items-center justify-center text-4xl font-bold">
         Team
       </h1>
@@ -45,6 +46,16 @@ export default function Team() {
           </div>
         </div>
       </main>
+      <img
+        className="absolute right-48 top-0 w-24"
+        src={Airplane}
+        alt="Paper airplane"
+      />
+      <img
+        className="absolute top-20 -left-8 w-24"
+        src={Airplane}
+        alt="Paper airplane"
+      />
     </section>
   )
 }

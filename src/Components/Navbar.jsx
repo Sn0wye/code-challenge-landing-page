@@ -16,7 +16,7 @@ export default function Navbar() {
         <li className="text-zinc-700">
           <a href="#pricing">Pricing</a>
         </li>
-        <button className="rounded-2xl bg-purple-500 px-10 py-4 text-white transition-all hover:bg-purple-400">
+        <button className="mb-2 rounded-2xl bg-purple-500 px-10 py-4 text-white transition-all hover:bg-purple-400">
           Sign up
         </button>
       </ul>
